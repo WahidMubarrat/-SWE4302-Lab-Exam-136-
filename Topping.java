@@ -1,6 +1,7 @@
 public class Topping implements Calculator {
     private final String topping;
     double price;
+    double basicprice;
 
     public  Topping(String topping){
         this.topping=topping;
@@ -24,7 +25,7 @@ switch (topping):
 
     @Override
     public double calculate() {
-        double totalPrice=price*0.8;
+        basicprice=price*0.8;
         return totalPrice;
 
     }

@@ -5,6 +5,7 @@ import java.io.IOException;
 
 public class Invoice {
 
+
     public static void main(String[] args) {
         String fileName = "C:\\Users\\wahid\\IdeaProjects\\TabMid\\src\\invoice.txt";
 
@@ -12,7 +13,9 @@ public class Invoice {
             writer.write("Ice Cream Shop Invoice");
             writer.newLine();
             writer.write("Subtotal:");
+            writer.newLine();
             writer.write("Tax:");
+            writer.newLine();
             writer.write("Total Due Amount:");
         } catch (IOException e) {
             e.printStackTrace();

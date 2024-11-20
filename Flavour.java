@@ -1,6 +1,7 @@
 public class Flavour implements Calculator {
  double price;
     String flavour;
+    double basicprice;
     public  Flavour(String flavour){
         this.flavour=flavour;
 
@@ -22,7 +23,13 @@ public class Flavour implements Calculator {
     }
     @Override
     public double calculate() {
-      double totalPrice=price*0.8;
+      basicPrice=price*0.8;
+        return basicPrice;
+
+    }
+    @Override
+    public double calculateTotal(int amount) {
+        double totalPrice=basicprice*amount;
         return totalPrice;
 
     }
