@@ -1,0 +1,7 @@
+1.(1-198) in inventorySystem Class -- Long Class --- 198 line long class
+2.(77-99) in inventorySystme class -- Switch Case ---- Switch statements have been used
+3.Messege Chain
+4.Refused Bequest
+5.Shotgun Surgery
+6.Feature Envy
+
