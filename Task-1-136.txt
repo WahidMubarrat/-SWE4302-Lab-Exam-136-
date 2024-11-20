@@ -3,5 +3,5 @@
 3.Messege Chain
 4.Refused Bequest
 5.Shotgun Surgery
-6.Feature Envy
+6.Feature Envy--inventoryManagementSystem calling globalinventoryData for work
 
